@@ -160,3 +160,41 @@
 .display{
     font-size: 30px;
 }
+
+/* informasi */
+
+.info{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-content{
+    height: 70px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+}
+
+.icon img{
+    width: 50px;
+    display: block;
+    margin-right: 10px;
+}
+
+.info-isi h2{
+    font-size: 15px;
+}
+
+.info-isi p{
+    font-size: 12px;
+}
+
+@media(min-width:560px){
+    .info{
+        width: 960px;
+        margin: auto;
+        justify-content: space-between;
+    }
+}
